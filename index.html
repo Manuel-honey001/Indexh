@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>After School - J'y serai</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+    }
+    canvas {
+      border: 1px solid #333;
+      margin-top: 20px;
+    }
+    input, button {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>After School - J'y serai</h1>
+  <input type="file" id="photoInput" accept="image/*" />
+  <button onclick="downloadImage()">Télécharger l'affiche</button>
+  <br />
+  <canvas id="previewCanvas" width="768" height="1152"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
