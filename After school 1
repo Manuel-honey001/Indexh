@@ -76,7 +76,7 @@
     });
 
     function downloadImage() {
-      const link = document.createElement("a");
+      const link = document.createlement("a");
       link.download = "affiche-jy-serai.png";
       link.href = canvas.toDataURL();
       link.click();
